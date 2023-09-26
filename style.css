@@ -1,3 +1,90 @@
-h1{
-    font-size: 50px;
+@media (min-width: 320px){
+    h1{
+        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        width: 320px;
+        
+    }
+    
+    h2{
+        font-family: 'Roboto', sans-serif;
+        width: 320px;
+    }
+    
+    i {
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        width: 320px;
+        margin-bottom: 50px;
+    }
+    
+    .container {
+        position: relative;
+        text-align: bottom;
+    }
+    
+    .name {
+        position: absolute;
+        bottom: 0px;
+        left: 80px;
+    }
+    
+    img {
+        width: 320px;
+    }
+    .heading-tainer{
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        padding-top: 20px;
+        width: 320px;
+    }
 }
+
+@media (min-width: 600px){
+    img {
+        width: 600px;
+    }
+    h1, p {
+        width: 600px;
+    }
+    .heading-tainer{
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        padding-top: 20px;
+        width: 600px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    img {
+        width: 1200px;
+        align-items: center;
+    }
+
+    h1, p {
+        width: 1200px;
+        align-items: center;
+    }
+
+    .name {
+        left: 400px;
+    }
+
+    .heading-tainer{
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        padding-top: 20px;
+        width: 1200px;
+    }
+}
+
+.random{
+    margin-bottom: 5px;
+}
+

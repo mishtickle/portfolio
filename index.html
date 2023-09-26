@@ -6,9 +6,75 @@
     <title>Document</title>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Playfair+Display&family=Roboto&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 <body>
-    <h1>Personal Portfolio</h1>
-    <h2>We've all made mistakes in our lives, some worse than others.  The main thing is to learn from it all.</h2>
+    <div class="container">
+        <h1 class="name">Hamish</h1>
+        <img src="./img/profilepic.jpg" alt="Profile Picture">
+    </div>
+    
+    <h2>About Me</h2>
+    <p>I grew up in Auckland City, New Zealand, and worked in the freight industry for a number of years before trying my hand at engineering.</p>  
+    <p>My studies were discontinued due to health issues, and I learnt web development on a part time basis whilst recovering.</p>
+    <p>I am passionate about all things web development, and aim to build a career in this field should the right opportunity to move onwards and upwards arrive for me.</p>
+
+    <h2>Projects</h2>
+
+    <div class="container" >
+        <img 
+            srcset="./img/shop-mobile.png 1255w, ./img/shop.png 1774w"
+            sizes="(min-width: 320px) 320px, 600px"
+            src="./img/shop.png" 
+            alt="Picture of shop project"
+        >
+        <div class="heading-tainer">
+            <h3>Online Shop</h3>
+            <i class="devicon-github-original"></i>
+        </div>
+        <p>A simple online shop that displays a couple of products and gives the ability to purchase them with the click of a button and continue to the purchase screen.</p>
+
+        <h3></h3>
+        
+    </div>
+    <div class="container">
+        <img 
+            srcset="./img/weather-mobile.png 463w, ./img/weather.png 1054w"
+            sizes="(min-width: 320px) 320px, 600px"
+            src="./img/weather.png" 
+            alt="A picture of the weather app"
+        >
+        <div class="heading-tainer">
+            <h3>Weather App</h3>
+            <i class="devicon-github-original"></i>
+        </div>
+        <p>A weather app that connects to an API to show the weather for the location searched for in the search bar.</p>
+    </div>
+    <div class="container">
+        <img
+            srcset="./img/memory-mobile.png 981w, ./img/memory.png 1870w"
+            sizes="(min-width: 320px) 320px, 600px" 
+            src="./img/memory.png" 
+            alt="A screenshot of the memory game"
+        >
+        <div class="heading-tainer">
+            <h3>Memory Game</h3>
+            <i class="devicon-github-original"></i>
+        </div>
+        <p>A memory game where you click on each image and see what you can remember for points</p>
+    </div>
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>Feel welcome to get in touch if you think that working together would be beneficial</p>
+        <p class="random">Random Address</p>
+        <p class="random">Random Phone Number</p>
+        <p class="random">Random Email Address</p>
+        <p class="random">Random Town</p>
+        <p class="random">Random Country</p>
+
+    </div>
+    
 </body>
 </html>
